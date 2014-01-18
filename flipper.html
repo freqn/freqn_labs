@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">      
+<head>
+    <meta charset="UTF-8">
+		<link rel="stylesheet" href="css/style.css">
+		<link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One|Squada+One|Ribeye|Monoton|Rye|Ewert' rel='stylesheet' type='text/css'>
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+		<title>Freqn Labs>Flipper</title>
+</head>
+
+	<body>
+				
+		<div id="wrapper">
+			<h1>-WANTED-</h1>
+			<p>A hog-flippn' crowbait to pony up &amp type sum jibbersh:</p>
+			<input id="namefield" name="name1" type="text" autocomplete="off" autofocus/>
+			<div id="right"><img src="images/phandright.png" alt=""></div>
+			<div id="left"><img src="images/phandleft.png" alt=""></div>
+			
+			<div class="navbar">
+			<ul class="iconlinks">
+    			
+				<li><a class="nav-home" href="http://freqn.com" title="home"><i class="icon-home"></i></a></li>
+    			<li><a class="nav-freqn" href="http://freqnlabs.com" title="lab"><i class="icon-beaker"></i></a></li>
+    			<li><a class="nav-twitter" href="http://twitter.com/radial77" title="follow"><i class="icon-twitter"></i></a></li>
+   				<li><a class="nav-plus" href="https://plus.google.com/+ChipEyler/about" title="circle"><i class="icon-google-plus"></i></a></li>
+   				<!--<li><a class="nav-git" href="https://github.com/freqn" title="github"><i class="icon-github-alt"></i></a></li>-->
+   				<li><a class="nav-mail" href="mailto:freqnlabs@gmail.com?subject=freqn.com inquiry" title="contact"><i class="icon-envelope-alt"></i></a></li>
+    
+			</ul><!--end "iconlinks-->
+			</div><!--end "navbar"-->
+
+
+		</div>
+
+		
+				
+		<div id="text_display"></div>
+		
+		<script>
+				var inputBox = document.getElementById('namefield');
+				inputBox.onkeyup = function(){
+				document.getElementById('text_display').innerHTML = inputBox.value;
+				}
+		</script>
+		
+	</body>
+</html>

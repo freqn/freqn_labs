@@ -1,0 +1,243 @@
+/* =global */
+
+* {
+  font-family: sans-serif;
+}
+
+
+/* =body */
+
+body {
+  background: url(../images/paperonly.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+
+/* =container */
+#wrapper{
+  width: 700px;
+  margin: -10px auto; 
+  position: relative;
+}
+
+#wrapper h1, p {
+  font-family: Ewert;
+}
+
+#wrapper h1 {
+   font-size: 120px;
+   font-weight: normal; 
+}
+
+#wrapper p {
+  font-size: 33px;
+  margin-top: -65px;
+}
+
+#right{
+  position: absolute;
+  right: -10px;
+  top: 270px;
+}
+
+#left{
+  position: absolute;
+  left: -10px;
+  top: 270px;
+}
+
+#namefield {
+  cursor: text;
+  font-size: 22px;
+  font-family: sans-serif;
+  background-color: #F7F2E0;
+  font-weight: bold;
+  text-align: left;
+  padding: 3px 5px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  box-shadow: inset 1px 1px 10px black;
+  -moz-box-shadow: inset 1px 1px 10px black;
+  -webkit-box-shadow: inset 1px 1px 10px black;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  width: 180px;
+  position: absolute;
+  right: 253px;
+  top: 288px;
+}
+
+#namefield:focus {
+  outline:none;
+}
+
+/* =flipped text */
+#text_display{
+  font-family: Ewert;
+  font-size: 65px;
+  color: #2A0A0A;
+  padding: 5px;
+  text-shadow: 1px 1px 3px #1C1C1C;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);  /* IE6,IE7 */
+  ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)"; /* IE8 */
+  -moz-transform: rotate(-180deg);  /* FF3.5+ */
+  -o-transform: rotate(-180deg);  /* Opera 10.5 */
+  -webkit-transform: rotate(-180deg);  /* Safari 3.1+, Chrome */
+  direction: rtl; 
+  unicode-bidi: bidi-override;
+  word-wrap: break-word;
+  width: 700px;
+  margin: 200px auto;
+}
+
+
+/*********************************** NAVIGATION ***************************************/
+.iconlinks {
+    list-style-type: none;
+    position: absolute;
+    top: -30px;
+    right: 0px;
+}
+
+.iconlinks li {
+    display: inline-block;
+    }
+    
+.iconlinks a {
+    color: #886A08;
+    font-size: 1.3em;
+    text-decoration: none;
+    padding-right: 2px;
+    -o-transition:.8s;
+    -ms-transition:.8s;
+    -moz-transition:.8s;
+    -webkit-transition:.8s;
+}
+
+.nav-home:hover {
+    color: #610B0B;
+}
+
+.nav-freqn:hover {
+    color: #00FF00;
+}
+
+.nav-twitter:hover{
+    color: #00b0ed;
+}
+
+.nav-plus:hover{
+    color: #B40404;
+}
+
+.nav-mail:hover{
+    color: #29088A;
+}
+
+.nav-git:hover{
+    color: white;
+}
+
+
+
+.nav-home[title]:hover:after {
+  content: attr(title);
+  padding: 2px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #424242;
+  position: absolute;
+  right: 0;
+  top: -20px;
+  white-space: nowrap;
+  z-index: 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.nav-freqn[title]:hover:after {
+  content: attr(title);
+  padding: 2px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #424242;
+  position: absolute;
+  right: 0;
+  top: -20px;
+  white-space: nowrap;
+  z-index: 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.nav-twitter[title]:hover:after {
+  content: attr(title);
+  padding: 2px;
+  color: #424242;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  top: -20px;
+  white-space: nowrap;
+  z-index: 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.nav-plus[title]:hover:after {
+  content: attr(title);
+  padding: 2px;
+  color: #424242;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  top: -20px;
+  white-space: nowrap;
+  z-index: 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/*.nav-git[title]:hover:after {
+  content: attr(title);
+  padding: 2px;
+  color: #424242;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  top: -20px;
+  white-space: nowrap;
+  z-index: 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}*/
+
+
+.nav-mail[title]:hover:after {
+  content: attr(title);
+  padding: 2px;
+  color: #424242;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  top: -20px;
+  white-space: nowrap;
+  z-index: 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
