@@ -105,19 +105,19 @@
 		  <img src="http://freqn.aws.af.cm/images/dollarsign.png" alt="Dollar Sign" width="67" height="77">	
 		  <?php
 		  } elseif ($net>0 && $net<1){
-          say();        
-            ?>
-            <img class="bill_display" src="http://freqn.aws.af.cm/images/0dollar.png" alt="Zero Dollar Bill">
+          	  say();        
+                  ?>
+        	  <img class="bill_display" src="http://freqn.aws.af.cm/images/0dollar.png" alt="Zero Dollar Bill">
 		  <?php
 		  } elseif ($net>=1 && $net<2){
-          say();
-            ?>
-            <img class="bill_display" src="http://freqn.aws.af.cm/images/dollar.png" alt="One Dollar Bill">
-            <?php
+                  say();
+            	  ?>
+            	  <img class="bill_display" src="http://freqn.aws.af.cm/images/dollar.png" alt="One Dollar Bill">
+            	  <?php
 		  } elseif ($net>=2 && $net<5) {
 		  say();
 		  ?>
-            <img class="bill_display" src="http://freqn.aws.af.cm/images/2dollar.png" alt="Two Dollar Bill">
+        	  <img class="bill_display" src="http://freqn.aws.af.cm/images/2dollar.png" alt="Two Dollar Bill">
 		  <?php
 		  } elseif ($net>=5 && $net<10) {
 		  say();
